@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 30.926 s <<< FAILURE! - in TestSuite
+parallelTestNG.MultipleBrowserTest.setUp[chrome](0)  Time elapsed: 1.282 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\Selenium\Selenium Browsers Jars\Chrome\Chrome 84\chromedriver.exe
+	at parallelTestNG.MultipleBrowserTest.setUp(MultipleBrowserTest.java:24)
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="ChromeBrowser(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="parallelTestNG.MultipleBrowserTest">
+        <methods>
+          <include name="BrowserTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- parallelTestNG.MultipleBrowserTest -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
